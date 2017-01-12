@@ -1,10 +1,192 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>aion.watch</title>
-    </head>
-    <body>
-        <p>aion.watch</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="aion.watch OSHW smartwatch">
+    <meta name="author" content="ishotjr.com">
+
+    <title>aion.watch</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="js/vegas/vegas.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/xslanding.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="wow fadeIn">
+
+<div class="overlay"></div>
+
+<div class="container-fluid content">
+    <div class="row content">
+        <div class="col-md-9 promo">
+            <div class="row intropromo">
+                <div class="col-sm-6">
+                    <!-- <h3 class="wow bounceInDown">aion.watch</h3> -->
+                </div>
+                <div class="col-sm-6">
+                    <h3>We're open!</h3>
+                    <p><i class="icon iconbig ion-ios-clock-outline"></i>Open Source Hardware and Open Source Software converge - on your wrist!</p>
+                    <ul class="list-inline lead">
+                        <li><a data-target="#aboutModal1" data-toggle="modal" class="btn btn-pink btn-lg wow fadeInLeft">About us</a></li>
+                        <!-- <li><a data-target="#aboutModal1" data-toggle="modal" class="btn btn-white btn-lg wow fadeInRight">More Info</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-left no-pad">
+            <div class="leftline wow fadeInLeft">
+                <div class="leftlineinside">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-6">
+                            <!-- <h1 class="logo"><img src="img/logodark.png" alt="Logo"></h1> -->
+                            <h1 class="logo pink">aion.watch</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-6">
+                            <h2 class="bold">Stay Updated</h2>
+                            <p>Sign up for our newsletter or follow us on Twitter for updates on the world's first community-driven hackable smartwatch!</p>
+                            <!-- MailChimp Signup Form -->
+                            <!-- Replace the form action in the line below with your MailChimp embed action! For more information on how to do this please visit the Docs! -->
+                            <form action="//ishotjr.us14.list-manage.com/subscribe/post?u=602157eb0bbaa9eb99f18f82a&amp;id=287255b576" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline subscribe-form" target="_blank" novalidate>
+                                <div class="input-group input-group-lg">
+                                    <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
+        <span class="input-group-btn">
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark">Go</button>
+        </span>
+                                </div>
+                                <div id="mce-responses">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                            </form>
+                            <!-- End MailChimp Signup Form -->
+
+
+                            <!--
+                            <h2 class="bold pink"><i class="icon ion-android-call"></i> (123) 456-7890</h2>
+                            <p><i class="fa fa-envelope fa-fw"></i> info@youwebsite.com<br>
+                                <i class="fa fa-map-marker fa-fw"></i> 12345 Some Ave, New York</p>
+
+                            <a href="/" class="pink"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                            <a href="/" class="pink"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                            -->
+                            <a href="https://twitter.com/aionwatch" class="pink"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                            <a href="https://github.com/aionwatch" class="pink"><i class="fa fa-github fa-fw fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about-modal modal fade" id="aboutModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="close-modal" data-dismiss="modal">
+                <i class="icon ion-ios-close-empty"></i>
+            </div>
+            <div id="about" class="container wow fadeIn animated">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- <img src="img/logodark.png" alt="Logo"> -->
+                        <h3>aion.watch is a community-driven hackable smartwatch</h3>
+                        <hr>
+                        <p>We're on a mission to build the first OSHW smartwatch with open source firmware and easy-to-use app development SDK.</p>
+                        <p>Prototyping is already underway - check back often for updates!</p>
+                    </div>
+                </div>
+                <!-- 
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 wow fadeIn animated" data-wow-delay=".2s">
+                        <h4><i class="icon ion-ios-infinite-outline" data-wow-duration="7s" data-wow-delay=".7s"></i>
+                            <img src="img/car/1.jpg" class="img-responsive img-centered" alt="">
+                            LIFETIME UPDATES</h4>
+                        <p>Lorem ipsum dolor sit amet consecte tur adipiscingtitor diam</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeIn animated" data-wow-delay=".4s">
+                        <h4><i class="icon ion-ios-stopwatch-outline"></i>
+                            <img src="img/misc/3.jpg" class="img-responsive img-centered" alt="">
+                            LIGHTWEIGHT</h4>
+                        <p>Lorem ipsum dolor sit amet consecte tur adipiscingtitor diam</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeIn animated" data-wow-delay=".6s">
+                        <h4><i class="icon ion-ios-monitor-outline"></i>
+                            <img src="img/app/2.jpg" class="img-responsive img-centered" alt="">
+                            RESPONSIVE</h4>
+                        <p>Lorem ipsum dolor sit amet consecte tur adipiscingtitor diam</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeIn animated" data-wow-delay=".8s">
+                        <h4><i class="icon ion-ios-settings"></i>
+                            <img src="img/food/0.jpg" class="img-responsive img-centered" alt="">
+                            MULTI-PURPOSE</h4>
+                        <p>Lorem ipsum dolor sit amet consecte tur adipiscingtitor diam</p>
+                    </div>
+                </div>
+                -->
+            </div>
+            <button type="button" class="btn btn-dark btn-lg" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/device.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+
+<!-- Contact Form -->
+<script src="js/form.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
+
+<!-- Background Slider -->
+<script src="js/vegas/vegas.min.js"></script>
+<script>
+    $('body').vegas({
+        delay: 6000,
+        timer: false,
+        transitionDuration: 2000,
+        slides: [
+            { src: 'img/background/1.jpg' },
+            { src: 'img/background/2.jpg' },
+            { src: 'img/background/3.jpg' },
+            { src: 'img/background/4.jpg' }
+        ],
+        transition: 'swirlRight',
+        animation: 'kenburns'
+    });
+</script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/xslanding.js"></script>
+
+</body>
 </html>
